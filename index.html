@@ -3,42 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <title>Simple Portfolio</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
-  <header>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#biography">Biography</a></li>
+      <li><a href="#achievement">Achievement</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#reflection">Reflection</a></li>
+      <li><a href="#goals">Career Goals</a></li>
+    </ul>
+  </nav>
+
+  <header class="header">
     <h1>Portfolio of Ananda Giwank Abhinaya</h1>
-    <p>Computer Science Student | UI/UX Designer | Video Editor</p>
+    <p>Computer Science Student | UX Enthusiast | Visual Holic</p>
   </header>
 
-  <main>
-    <!-- Short Biography -->
-    <section id="biography">
+  <main class="content">
+    <section id="biography" class="biography-section">
       <h2>Short Biography</h2>
-      <p>
-        Hello, my name is Ananda Giwank Abhinaya. I am a Computer Science student interested in UI/UX Design, 
-        video editing, and technology development. I enjoy creating designs that are simple but meaningful.
-      </p>
-      <!-- Illustration -->
-      <figure>
-        <img src="image.jpg" alt="Personal Illustration" width="200">
-        <figcaption>Personal Illustration</figcaption>
-      </figure>
+      <section class="bio-container">
+        <figure>
+          <img src="assets/image1.jpeg" alt="Personal Illustration" width="200">
+          <img src="assets/image2.jpeg" alt="Personal Illustration" width="200">
+          <img src="assets/image3.jpeg" alt="Personal Illustration" width="200">
+          <figcaption>Personal Illustration</figcaption>
+        </figure>
+        <p>
+          Hello, my name is Ananda Giwank Abhinaya. I am a Computer Science student interested in UI/UX Design, 
+          video editing, and technology development. I enjoy creating designs that are simple but meaningful.
+        </p>
+      </section>
     </section>
 
-    <!-- List of Awards -->
-    <section id="awards">
-      <h2>List of Awards</h2>
-      <ul>
-        <li>1st Place Literacy Campaign Video Competition (2023)</li>
-        <li>1st Place Short Animation of Bangka Belitung Culture (2023)</li>
-        <li>Finalist Tourism Video Competition in Bangka Belitung (2023)</li>
-      </ul>
+    <section id="achievement" class="achievement-section">
+      <section class="section" >
+        <h2>List of Awards</h2>
+        <ul>
+          <li>1st Place Literacy Campaign Video Competition (2023)</li>
+          <li>1st Place Short Animation of Bangka Belitung Culture (2023)</li>
+          <li>Finalist Tourism Video Competition in Bangka Belitung (2023)</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2>List of Certificate</h2>
+        <ul>
+          <li>Film Workshop - Vanka Visual (2021)</li>
+          <li>Digital Marketing Workshop - BalaiTIKP Bangka Belitung (2023)</li>
+          <li>Short Film Participants - FLS2N (2024)</li>
+        </ul>
+      </section>
+    </section>
 
-    <!-- Education History -->
-    <section id="education">
+    <section id="education" class="section">
       <h2>Education History</h2>
-      <table>
+      <table aria-label="Education Table">
         <thead>
           <tr>
             <th>Year</th>
@@ -57,45 +79,38 @@
             <td>Senior High School - Science</td>
             <td>SMA 1 Koba</td>
           </tr>
-          </tr>
-          <tr>
-            <td>2018 - 2021</td>
-            <td>Junior High School</td>
-            <td>SMP 1 Koba</td>
-          </tr>
-          </tr>
-          <tr>
-            <td>2012 - 2018</td>
-            <td>Elementary School</td>
-            <td>SD 3 Koba</td>
-          </tr>
         </tbody>
       </table>
     </section>
 
-    <!-- Self Reflection -->
-    <section id="reflection">
+    <section id="reflection" class="section">
       <h2>Self Reflection</h2>
       <p>
-        I realize I possess expert abilities in video editing, filmmaking, photography and videography, and design. 
-        Furthermore, I'm currently learning and developing my skills in programming and web and mobile development. 
-        I also need to improve my soft skills in teamwork, communication, decision-making, and staying focused on the important things.
-      </p>
+        So far, I have learned many valuable lessons, one of which is the importance of consistency and the willingness to keep learning new things, as I believe these are the keys to personal growth. My main strength lies in creativity and the ability to understand people’s problems and provide the best solutions. However, I also realize the need to further develop essential soft skills such as public speaking, teamwork communication, and maintaining focus on what truly matters. One of the biggest challenges I have faced is balancing academic responsibilities with creative projects, which has taught me discipline, time management, and adaptability.
     </section>
 
-    <!-- Future Career Goals -->
-    <section id="goals">
+
+    <section id="goals" class="section">
       <h2>Future Career Goals</h2>
       <ol>
-        <li>1 Year: Internship in a startup as a UI/UX intern</li>
-        <li>3 Years: Become a professional UI/UX Designer</li>
-        <li>5 Years: Lead Designer in a technology company</li>
+        <li>To build a platform that connects people with creative design and visual solutions.</li>
+        <li>To focus on a career as a UI/UX Designer and Front-End Developer.</li>
+        <li>To develop creative innovations based on technology.</li>
       </ol>
     </section>
   </main>
 
-  <footer>
-    <p>This portfolio was created as an HTML5 assignment &copy; 2025</p>
+
+  <footer class="footer">
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <section class="contact-links">
+        <a href="https://github.com/Giwnk" target="_blank">Github: Giwnk</a>
+        <a href="https://www.behance.net/anandaabhinay" target="_blank">Behance: Ananda Giwank Abhinaya</a>
+        <a href="mailto:nayawank@gmail.com" target="_blank">Email: nayawank@gmail.com</a>
+      </section>
+    </section>
+    <p>&copy; 2025 Portfolio of Ananda Giwank Abhinaya. All Rights Reserved.</p>
   </footer>
 
 </body>
